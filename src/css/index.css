@@ -1,0 +1,116 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul{
+    display: flex;
+    margin: 10px 25px 0;
+}
+
+.header li{
+    padding: 10px;
+}
+main{
+    display: flex;
+}
+.logo{
+    max-width: 25px;
+}
+.logo-video{
+    max-width: 40px;
+    border: none;
+}
+.busca input{
+    position: relative;
+    height: 30px;
+    width: 348px;
+    bottom: 6px;
+}
+.busca button{
+    height: 33px;
+    width: 50px;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+}
+.header ul:hover, button:hover{
+    cursor: pointer;
+}
+.conteiner{
+    position: relative;
+    width: 952px;
+    height: 746px;
+    top: 25px;
+    left: 75px;
+}
+.video iframe{
+    width: 952px;
+    height: 537px;
+}
+.video h1{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;
+}
+.opcao ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -18px;
+}
+.opcao li{
+    display: flex;
+    align-items: center;
+}
+.opcao p{
+    margin-left: -35px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.opcao p span{
+    font-size: 14px;
+    font-weight: normal;
+}
+.opcao .logo-video{
+    border: 1px solid;
+    border-radius: 50px;
+}
+.opcao .inscreva{
+    width: 159px;
+    border-radius: 2px;
+}
+.opcao .like{
+    width: 19.68px;
+    margin-right: 5px;
+}
+.opcao:hover{
+    cursor: pointer;
+}
+div h2{
+    width: 391px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.descricao{
+    font-size: 14px;
+    width: 510px;
+    margin-top: 10px;
+}
+.nav{
+    width: 30vw;
+    height: 90vh;
+    left: 100px;
+    top: 24px;
+    position: relative;
+}
+.nav li{
+    display: flex;
+    margin: 0 0 30px;
+}
+.nav div h3, .nav div p{
+    margin: 0 0  20px 20px;
+}
+
+.esquerda {
+    width: 280px;
+}
